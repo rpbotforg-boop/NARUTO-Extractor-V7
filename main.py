@@ -14,7 +14,7 @@ if __name__ == "__main__":
         api_hash="1a286620de5ffe0a7d9b57e604293555",
         sleep_threshold=120,
         plugins=plugins,
-        workers=10000,
+        workers=8,
     )
 import asyncio
 
