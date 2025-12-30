@@ -1,5 +1,9 @@
 from getserver import getserver
-def Connect_Server():
-    getserver.connect_v1()
-Connect_Server()
+
+def connect_server():
+    server = getserver()
+    server.connect_v1()
+
+if __name__ == "__main__":
+    connect_server()
 
