@@ -8,16 +8,17 @@ LOGGER.info("Live log streaming to telegram.")
 plugins = dict(root="plugins")
 
 if __name__ == "__main__":
-bot = Client(
-    "Master",
-    bot_token="8282655063:AAFKE7fkSPMg_nEiaV1gTKY87JK7Jgd-y7s",
-    api_id=27433400,
-    api_hash="1a286620de5ffe0a7d9b57e604293555",
-    sleep_threshold=120,
-    plugins=plugins,
-    workers=8
-)
+    bot = Client(
+        "Master",
+        bot_token="8282655063:AAFKE7fkSPMg_nEiaV1gTKY87JK7Jgd-y7s",
+        api_id=27433400,
+        api_hash="1a286620de5ffe0a7d9b57e604293555",
+        sleep_threshold=120,
+        plugins=plugins,
+        workers=8
+    )
     bot.run()
+    
 async def main():
         await bot.start()
         bot_info = await bot.get_me()
