@@ -7,8 +7,6 @@ LOGGER = logging.getLogger(__name__)
 LOGGER.info("Live log streaming to telegram.")
 plugins = dict(root="plugins")
 if __name__ == "__main__":
-
-# Bot client (GLOBAL)
 bot = Client(
     "Master",
     bot_token="8282655063:AAFKE7fkSPMg_nEiaV1gTKY87JK7Jgd-y7s",
