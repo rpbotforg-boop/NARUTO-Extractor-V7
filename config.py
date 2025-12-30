@@ -18,3 +18,4 @@ class Config(object):
     THUMB_URL = "https://i.ibb.co/zTPJFct8/photo-2025-04-25-12-55-01-7497233558289776672.jpg" #Replace by with your Thumb URL
     HOST = "https://drm-api-five.vercel.app"
     
+
