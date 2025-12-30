@@ -18,8 +18,6 @@ bot = Client(
     workers=8
 )
     bot.run()
-
-# Main async function
 async def main():
         await bot.start()
         bot_info = await bot.get_me()
