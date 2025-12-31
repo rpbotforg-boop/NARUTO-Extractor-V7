@@ -8,9 +8,6 @@ logging.basicConfig(level=logging.INFO)
 LOGGER = logging.getLogger(__name__)
 LOGGER.info("Live log streaming to telegram.")
 
-# Plugins config (IMPORTANT)
-plugins = dict(root="plugins")
-
 # Bot client
 bot = Client(
     "Master",
@@ -18,7 +15,7 @@ bot = Client(
         api_id=27433400,
         api_hash="1a286620de5ffe0a7d9b57e604293555",
         sleep_threshold=120,
-        plugins=PLUGINS,
+        plugins=dict(root="plugins"),
         workers=8
 )
 
