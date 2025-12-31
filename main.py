@@ -17,7 +17,6 @@ if __name__ == "__main__":
         plugins="plugins",
         workers=8
     )
-    bot.run()
 
 async def main():
     await bot.start()
