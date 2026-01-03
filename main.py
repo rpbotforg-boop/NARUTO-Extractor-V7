@@ -11,9 +11,9 @@ LOGGER.info("Live log streaming to telegram.")
 # Bot client
 bot = Client(
     "Master",
-    bot_token="8282655063:AAFKE7fkSPMg_nEiaV1gTKY87JK7Jgd-y7s",
-        api_id=27433400,
-        api_hash="1a286620de5ffe0a7d9b57e604293555",
+    bot_token="8225118430:AAEOFTRcVH3Au1LR0iFyasUb4U5CGATuoT4",
+        api_id=22447622,
+        api_hash="543b62d58d3e723e766ba57a984ab65d",
         sleep_threshold=120,
         plugins=dict(root="plugins"),
         workers=8
